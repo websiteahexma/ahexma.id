@@ -1,0 +1,130 @@
+.elementor-1508 .elementor-element.elementor-element-7c9889d>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1508 .elementor-element.elementor-element-1630fec .eb-map {
+    height: 600px;
+}
+
+.elementor-1508 .elementor-element.elementor-element-c6f75f6 {
+    padding: 0px 0px 80px 0px;
+}
+
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-element-populated {
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-color: #FF2D55;
+    box-shadow: 0px 2px 35px 0px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: -100px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-element-populated,
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-element-populated>.elementor-background-overlay,
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-background-slideshow {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 60px 60px 60px 60px;
+}
+
+.elementor-1508 .elementor-element.elementor-element-1ec2b9f {
+    z-index: 2;
+}
+
+.elementor-1508 .elementor-element.elementor-element-9b878a9 {
+    text-align: center;
+}
+
+.elementor-1508 .elementor-element.elementor-element-9b878a9 .elementor-heading-title {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.elementor-1508 .elementor-element.elementor-element-b89af7c {
+    text-align: center;
+    color: #000000;
+}
+
+.elementor-1508 .elementor-element.elementor-element-b89af7c>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+@media(max-width:1024px) {
+    .elementor-1508 .elementor-element.elementor-element-9b878a9 .elementor-heading-title {
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+}
+
+@media(min-width:768px) {
+    .elementor-1508 .elementor-element.elementor-element-2736e88 {
+        width: 20%;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-1ec2b9f {
+        width: 59.332%;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-c413edf {
+        width: 20%;
+    }
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-1508 .elementor-element.elementor-element-2736e88 {
+        width: 5%;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-1ec2b9f {
+        width: 90%;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-c413edf {
+        width: 5%;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1508 .elementor-element.elementor-element-1630fec .eb-map {
+        height: 400px;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-c6f75f6 {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-1ec2b9f>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 50px 30px 50px 30px;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-9b878a9 {
+        text-align: center;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-9b878a9 .elementor-heading-title {
+        font-size: 28px;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-9b878a9>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-1508 .elementor-element.elementor-element-b89af7c {
+        text-align: left;
+    }
+}

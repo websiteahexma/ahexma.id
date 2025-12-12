@@ -1,0 +1,248 @@
+.elementor-1729 .elementor-element.elementor-element-f85f6f3>.elementor-shape-bottom .elementor-shape-fill {
+    fill: #FFFFFF;
+}
+
+.elementor-1729 .elementor-element.elementor-element-f85f6f3>.elementor-shape-bottom svg {
+    width: calc(190% + 1.3px);
+}
+
+.elementor-1729 .elementor-element.elementor-element-f85f6f3>.elementor-shape-bottom {
+    z-index: 2;
+    pointer-events: none;
+}
+
+.elementor-1729 .elementor-element.elementor-element-912a3e2>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-6ece1e0 .eb-map {
+    height: 600px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-7895c40 {
+    margin-top: -420px;
+    margin-bottom: 0px;
+    z-index: 2;
+}
+
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c>.elementor-element-populated,
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c>.elementor-element-populated>.elementor-background-overlay,
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c>.elementor-background-slideshow {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c>.elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c>.elementor-element-populated>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1729 .elementor-element.elementor-element-0b8bc0c>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 50px 40px 50px 40px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-ca2e817 {
+    text-align: left;
+}
+
+.elementor-1729 .elementor-element.elementor-element-ca2e817 .elementor-heading-title {
+    color: #FF2D55;
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.elementor-1729 .elementor-element.elementor-element-4e26d11 {
+    text-align: left;
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+}
+
+.elementor-1729 .elementor-element.elementor-element-4e26d11>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-cc36da9 {
+    color: #000000;
+}
+
+.elementor-1729 .elementor-element.elementor-element-cc36da9>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-acd4445 .elementor-button {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FF2D55;
+    border-radius: 50px 50px 50px 50px;
+    padding: 12px 30px 12px 30px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-acd4445 .elementor-button:hover,
+.elementor-1729 .elementor-element.elementor-element-acd4445 .elementor-button:focus {
+    background-color: #DD072F;
+}
+
+.elementor-1729 .elementor-element.elementor-element-acd4445>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-acd4445 {
+    width: auto;
+    max-width: auto;
+}
+
+.elementor-1729 .elementor-element.elementor-element-ddbf0ff {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-6ce7836>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li.scheduleday_title h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li.scheduleday_title h4,
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li.scheduleday_title .scheduleday_title_icon span {
+    color: #ffffff;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .scheduleday_wrapper li.scheduleday_title {
+    background: #007AFF;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .scheduleday_wrapper li.scheduleday_title,
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .scheduleday_wrapper,
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .scheduleday_wrapper li .session_content_wrapper {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li .session_content h6 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li .expandable,
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li .session_content_wrapper {
+    background: #ffffff;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li,
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li .session_location {
+    border-color: #e1e1e1;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li {
+    color: #222222;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li a {
+    color: #FF2D55;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .scheduleday_wrapper li a:hover {
+    color: #000000;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .scheduleday_wrapper li .session_speaker_thumb img {
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .session_filters li a,
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper a.session_expand_all {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .sidebar_wrapper .session_expand_all {
+    border-color: #e1e1e1;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .session_filters li a:hover {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .session_filters li a.active {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-1729 .elementor-element.elementor-element-9f555e6 .session-sidebar-wrapper .session_filters li a {
+    border-radius: 25px 25px 25px 25px;
+}
+
+@media(max-width:1024px) and (min-width:768px) {
+    .elementor-1729 .elementor-element.elementor-element-0b8bc0c {
+        width: 50%;
+    }
+}
+
+@media(max-width:1024px) {
+    .elementor-1729 .elementor-element.elementor-element-f85f6f3>.elementor-shape-bottom svg {
+        width: calc(300% + 1.3px);
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-7895c40 {
+        margin-top: -500px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-ca2e817 .elementor-heading-title {
+        font-size: 40px;
+        line-height: 1.2em;
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-4e26d11>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1729 .elementor-element.elementor-element-f85f6f3>.elementor-shape-bottom svg {
+        width: calc(550% + 1.3px);
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-ca2e817 .elementor-heading-title {
+        font-size: 36px;
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-ca2e817>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-4e26d11 {
+        text-align: center;
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-4e26d11>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-cc36da9 {
+        text-align: center;
+    }
+
+    .elementor-1729 .elementor-element.elementor-element-acd4445>.elementor-widget-container {
+        margin: 20px 0px 0px 0px;
+    }
+}

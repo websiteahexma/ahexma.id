@@ -1,0 +1,202 @@
+.elementor-994 .elementor-element.elementor-element-74ecab7:not(.elementor-motion-effects-element-type-background),
+.elementor-994 .elementor-element.elementor-element-74ecab7>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-74ecab7 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 160px 0px 80px 0px;
+}
+
+.elementor-994 .elementor-element.elementor-element-74ecab7>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-994 .elementor-element.elementor-element-74ecab7>.elementor-shape-bottom .elementor-shape-fill {
+    fill: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-74ecab7>.elementor-shape-bottom svg {
+    height: 79px;
+}
+
+.elementor-994 .elementor-element.elementor-element-8dc2b0a>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-994 .elementor-element.elementor-element-aeb29ea {
+    text-align: center;
+}
+
+.elementor-994 .elementor-element.elementor-element-aeb29ea .elementor-heading-title {
+    color: #FF2D55;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.elementor-994 .elementor-element.elementor-element-aab5051 {
+    text-align: center;
+}
+
+.elementor-994 .elementor-element.elementor-element-aab5051 .elementor-heading-title {
+    color: #FFFFFFE8;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.elementor-994 .elementor-element.elementor-element-aab5051>.elementor-widget-container {
+    margin: 10px 0px 0px 0px;
+}
+
+.elementor-994 .elementor-element.elementor-element-4b46d39:not(.elementor-motion-effects-element-type-background),
+.elementor-994 .elementor-element.elementor-element-4b46d39>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-4b46d39 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 40px 0px 40px;
+}
+
+.elementor-994 .elementor-element.elementor-element-4b46d39>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-994 .elementor-element.elementor-element-fa7f820>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-994 .elementor-element.elementor-element-fa7f820>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-featured-image-hover,
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .type-post.blog-posts-grid_no_space,
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .type-post.blog-posts-metro_no_space {
+    border-radius: 15px;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-header h5 a {
+    color: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-header h5 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-info-cat a {
+    color: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-detail.single-post {
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-header-wrapper>p {
+    color: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 a.continue-reading {
+    color: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-featured-date-wrapper {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 700;
+    background: #00000085;
+    border-radius: 15px;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-featured-date {
+    color: #FFFFFF;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .post-featured-month {
+    color: #FFFFFF;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .pagination a,
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .pagination-detail {
+    color: #000000;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .pagination a:hover {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-994 .elementor-element.elementor-element-b3e04a0 .pagination span.current {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+body.elementor-page-994:not(.elementor-motion-effects-element-type-background),
+body.elementor-page-994>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000000;
+}
+
+@media(max-width:1024px) {
+    .elementor-994 .elementor-element.elementor-element-74ecab7>.elementor-shape-bottom svg {
+        width: calc(125% + 1.3px);
+    }
+
+    .elementor-994 .elementor-element.elementor-element-74ecab7 {
+        padding: 120px 0px 60px 0px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-aeb29ea .elementor-heading-title {
+        font-size: 60px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-4b46d39 {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-b3e04a0 .post-header h5 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-994 .elementor-element.elementor-element-74ecab7>.elementor-shape-bottom svg {
+        width: calc(300% + 1.3px);
+    }
+
+    .elementor-994 .elementor-element.elementor-element-74ecab7 {
+        padding: 110px 0px 40px 0px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-8dc2b0a>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-aeb29ea .elementor-heading-title {
+        font-size: 40px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-4b46d39 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-fa7f820>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-b3e04a0 .post-header h5 {
+        font-size: 20px;
+    }
+
+    .elementor-994 .elementor-element.elementor-element-b3e04a0 .post-detail.single-post {
+        font-size: 12px;
+    }
+}

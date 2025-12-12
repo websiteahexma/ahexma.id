@@ -1,0 +1,223 @@
+.elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-container {
+    min-height: 700px;
+}
+
+.elementor-1706 .elementor-element.elementor-element-b75fa38:not(.elementor-motion-effects-element-type-background),
+.elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://raw.githubusercontent.com/arzuizza/Ahexma-Asset-Image/refs/heads/main/Rundown%20V1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-1706 .elementor-element.elementor-element-354b75fa38:not(.elementor-motion-effects-element-type-background),
+.elementor-1706 .elementor-element.elementor-element-354b75fa38>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://raw.githubusercontent.com/arzuizza/Ahexma-Asset-Image/refs/heads/main/Galeri%20V1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-1706 .elementor-element.elementor-element-354a:not(.elementor-motion-effects-element-type-background),
+.elementor-1706 .elementor-element.elementor-element-354a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://raw.githubusercontent.com/arzuizza/Ahexma-Asset-Image/refs/heads/main/Informasi%20V1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-background-overlay {
+    background-color: #000000;
+    opacity: 0.2;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1706 .elementor-element.elementor-element-b75fa38 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-shape-bottom .elementor-shape-fill {
+    fill: #FFFFFF;
+}
+
+.elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-shape-bottom svg {
+    width: calc(190% + 1.3px);
+}
+
+.elementor-1706 .elementor-element.elementor-element-3cdd6b5>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 20px 0px 0px 0px;
+}
+
+.elementor-1706 .elementor-element.elementor-element-3947616 {
+    text-align: center;
+}
+
+.elementor-1706 .elementor-element.elementor-element-3947616 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.elementor-element.elementor-element-3947616 {
+    transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000) !important;
+    transition-delay: 50ms !important;
+}
+
+.elementor-widget.elementor-element-3947616 {
+    opacity: 0;
+}
+
+.elementor-1706 .elementor-element.elementor-element-c8b9d79 {
+    text-align: center;
+}
+
+.elementor-1706 .elementor-element.elementor-element-c8b9d79 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.elementor-element.elementor-element-c8b9d79 {
+    transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000) !important;
+    transition-delay: 100ms !important;
+}
+
+.elementor-widget.elementor-element-c8b9d79 {
+    opacity: 0;
+}
+
+.elementor-1706 .elementor-element.elementor-element-22f85b5 {
+    padding: 20px 0px 0px 0px;
+}
+
+.elementor-1706 .elementor-element.elementor-element-bf28660>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li.scheduleday_title h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li.scheduleday_title h4,
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li.scheduleday_title .scheduleday_title_icon span {
+    color: #ffffff;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .scheduleday_wrapper li.scheduleday_title {
+    background: #007AFF;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .scheduleday_wrapper li.scheduleday_title,
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .scheduleday_wrapper,
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .scheduleday_wrapper li .session_content_wrapper {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li .session_content h6 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li .expandable,
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li .session_content_wrapper {
+    background: #FFFFFF;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li,
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li .session_location {
+    border-color: #e1e1e1;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li {
+    color: #222222;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li a {
+    color: #FF2D55;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .scheduleday_wrapper li a:hover {
+    color: #000000;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .scheduleday_wrapper li .session_speaker_thumb img {
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .session_filters li a,
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper a.session_expand_all {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .session_filters li a:hover {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .session_filters li a.active {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-1706 .elementor-element.elementor-element-8224bc3 .session-fullwidth-wrapper .session_filters li a {
+    border-radius: 25px 25px 25px 25px;
+}
+
+@media(max-width:1024px) {
+    .elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-container {
+        min-height: 600px;
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-shape-bottom svg {
+        width: calc(300% + 1.3px);
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-3947616 .elementor-heading-title {
+        font-size: 55px;
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-c8b9d79 .elementor-heading-title {
+        font-size: 55px;
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-22f85b5 {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-bf28660>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-container {
+        min-height: 500px;
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-shape-bottom svg {
+        width: calc(550% + 1.3px);
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-3947616 .elementor-heading-title {
+        font-size: 40px;
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-c8b9d79 .elementor-heading-title {
+        font-size: 40px;
+    }
+
+    .elementor-1706 .elementor-element.elementor-element-22f85b5 {
+        padding: 30px 0px 0px 0px;
+    }
+}

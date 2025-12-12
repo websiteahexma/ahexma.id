@@ -1,0 +1,214 @@
+.elementor-1739 .elementor-element.elementor-element-23c241f:not(.elementor-motion-effects-element-type-background),
+.elementor-1739 .elementor-element.elementor-element-23c241f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-1739 .elementor-element.elementor-element-23c241f {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 60px 0px 120px 0px;
+}
+
+.elementor-1739 .elementor-element.elementor-element-23c241f>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1739 .elementor-element.elementor-element-23c241f>.elementor-shape-bottom .elementor-shape-fill {
+    fill: #F0F0F0;
+}
+
+.elementor-1739 .elementor-element.elementor-element-23c241f>.elementor-shape-bottom svg {
+    height: 72px;
+    transform: translateX(-50%) rotateY(180deg);
+}
+
+.elementor-1739 .elementor-element.elementor-element-8acb31c>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1739 .elementor-element.elementor-element-c627fcd {
+    text-align: center;
+}
+
+.elementor-1739 .elementor-element.elementor-element-c627fcd .elementor-heading-title {
+    color: #FF2D55;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.elementor-1739 .elementor-element.elementor-element-5526ee3 {
+    text-align: center;
+}
+
+.elementor-1739 .elementor-element.elementor-element-5526ee3 .elementor-heading-title {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.elementor-1739 .elementor-element.elementor-element-c250a9b:not(.elementor-motion-effects-element-type-background),
+.elementor-1739 .elementor-element.elementor-element-c250a9b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F0F0F0;
+}
+
+.elementor-1739 .elementor-element.elementor-element-c250a9b {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0px 0px 60px 0px;
+}
+
+.elementor-1739 .elementor-element.elementor-element-c250a9b>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1739 .elementor-element.elementor-element-e1c622a>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li.scheduleday_title h4 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li.scheduleday_title h4,
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li.scheduleday_title .scheduleday_title_icon span {
+    color: #ffffff;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper li.scheduleday_title,
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper.tab {
+    background: #007AFF;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper li.scheduleday_title {
+    border-color: transparent;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li.scheduleday_title.active h4,
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li.scheduleday_title.active .scheduleday_title_icon span {
+    color: #ffffff;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper li.scheduleday_title.active {
+    background: #0061CB;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper.tab li.scheduleday_title.active {
+    border-color: transparent;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper li.scheduleday_title,
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper,
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper li .session_content_wrapper {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li .session_content h6 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li .expandable,
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li .session_content_wrapper {
+    background: #ffffff;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li .session_location {
+    border-color: #E1E1E1;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li {
+    color: #222222;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li a {
+    color: #FF2D55;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li a:hover {
+    color: #000000;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .scheduleday_wrapper li .session_speaker_thumb img {
+    border-radius: 25px 25px 25px 25px;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .session_filters li a,
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper a.session_expand_all {
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .session_filters li a:hover {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .session_filters li a.active {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .session_filters li a {
+    border-radius: 25px 25px 25px 25px;
+}
+
+@media(max-width:1024px) {
+    .elementor-1739 .elementor-element.elementor-element-23c241f>.elementor-shape-bottom svg {
+        width: calc(100% + 1.3px);
+        height: 40px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-23c241f {
+        padding: 60px 0px 100px 0px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-c627fcd .elementor-heading-title {
+        font-size: 60px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-5526ee3 .elementor-heading-title {
+        font-size: 60px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-c250a9b {
+        padding: 20px 0px 40px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1739 .elementor-element.elementor-element-23c241f>.elementor-shape-bottom svg {
+        width: calc(300% + 1.3px);
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-23c241f {
+        padding: 70px 0px 80px 0px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-8acb31c>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-c627fcd .elementor-heading-title {
+        font-size: 40px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-5526ee3 .elementor-heading-title {
+        font-size: 40px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li.scheduleday_title h4 {
+        font-size: 14px;
+    }
+
+    .elementor-1739 .elementor-element.elementor-element-3955083 .session-tab-wrapper .scheduleday_wrapper li .session_content h6 {
+        font-size: 16px;
+    }
+}

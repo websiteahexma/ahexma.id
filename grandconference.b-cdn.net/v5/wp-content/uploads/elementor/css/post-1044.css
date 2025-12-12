@@ -1,0 +1,199 @@
+.elementor-1044 .elementor-element.elementor-element-c44db86:not(.elementor-motion-effects-element-type-background),
+.elementor-1044 .elementor-element.elementor-element-c44db86>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #FFFFFF;
+}
+
+.elementor-1044 .elementor-element.elementor-element-c44db86 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 80px 0px 140px 0px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-c44db86>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1044 .elementor-element.elementor-element-c44db86>.elementor-shape-bottom .elementor-shape-fill {
+    fill: #F0F0F0;
+}
+
+.elementor-1044 .elementor-element.elementor-element-c44db86>.elementor-shape-bottom svg {
+    width: calc(100% + 1.3px);
+    height: 88px;
+    transform: translateX(-50%) rotateY(180deg);
+}
+
+.elementor-1044 .elementor-element.elementor-element-532679d>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-92ae920 {
+    text-align: center;
+}
+
+.elementor-1044 .elementor-element.elementor-element-92ae920 .elementor-heading-title {
+    color: #FF2D55;
+    font-family: "Poppins", Sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.elementor-1044 .elementor-element.elementor-element-e662184 {
+    text-align: center;
+}
+
+.elementor-1044 .elementor-element.elementor-element-e662184 .elementor-heading-title {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.elementor-1044 .elementor-element.elementor-element-e662184>.elementor-widget-container {
+    margin: 10px 0px 0px 0px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-7b2a6b4:not(.elementor-motion-effects-element-type-background),
+.elementor-1044 .elementor-element.elementor-element-7b2a6b4>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F0F0F0;
+}
+
+.elementor-1044 .elementor-element.elementor-element-7b2a6b4 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 40px 0px 40px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-7b2a6b4>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-1044 .elementor-element.elementor-element-9c1951b>.elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-9c1951b>.elementor-element-populated>.elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-featured-image-hover,
+.elementor-1044 .elementor-element.elementor-element-b547b6a .type-post.blog-posts-grid_no_space,
+.elementor-1044 .elementor-element.elementor-element-b547b6a .type-post.blog-posts-metro_no_space {
+    border-radius: 15px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-header h5 a {
+    color: #000000;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-header h5 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-info-cat a {
+    color: #000000;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-detail.single-post {
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-header-wrapper>p {
+    color: #000000;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a a.continue-reading {
+    color: #000000;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-featured-date-wrapper {
+    font-family: "Poppins", Sans-serif;
+    font-weight: 700;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-featured-date {
+    color: #000000;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .post-featured-month {
+    color: #000000;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .pagination a,
+.elementor-1044 .elementor-element.elementor-element-b547b6a .pagination-detail {
+    color: #000000;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .pagination a:hover {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+.elementor-1044 .elementor-element.elementor-element-b547b6a .pagination span.current {
+    color: #ffffff;
+    background-color: #FF2D55;
+}
+
+body.elementor-page-1044:not(.elementor-motion-effects-element-type-background),
+body.elementor-page-1044>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #F0F0F0;
+}
+
+@media(max-width:1024px) {
+    .elementor-1044 .elementor-element.elementor-element-c44db86>.elementor-shape-bottom svg {
+        width: calc(125% + 1.3px);
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-92ae920 .elementor-heading-title {
+        font-size: 60px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-b547b6a .post-header h5 {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-1044 .elementor-element.elementor-element-c44db86>.elementor-shape-bottom svg {
+        width: calc(300% + 1.3px);
+        height: 51px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-c44db86 {
+        padding: 60px 0px 80px 0px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-532679d>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-92ae920 .elementor-heading-title {
+        font-size: 40px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-7b2a6b4 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-9c1951b>.elementor-element-populated>.elementor-widget-wrap {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-b547b6a .post-header h5 {
+        font-size: 20px;
+    }
+
+    .elementor-1044 .elementor-element.elementor-element-b547b6a .post-detail.single-post {
+        font-size: 12px;
+    }
+}

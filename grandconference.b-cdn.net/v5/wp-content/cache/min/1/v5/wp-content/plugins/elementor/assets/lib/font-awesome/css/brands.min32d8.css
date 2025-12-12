@@ -1,0 +1,155 @@
+/*!
+ * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+    font-family: "Font Awesome 5 Brands";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://grandconference.b-cdn.net/v5/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot);
+    src: url(https://grandconference.b-cdn.net/v5/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(https://grandconference.b-cdn.net/v5/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2) format("woff2"), url(https://grandconference.b-cdn.net/v5/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff) format("woff"), url(https://grandconference.b-cdn.net/v5/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.ttf) format("truetype"), url(https://grandconference.b-cdn.net/v5/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.svg#fontawesome) format("svg")
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400
+}
+
+
+/* Modifikasi By arzu_354 */
+
+
+/* ========== Enhanced Status Table Animation ========== */
+/* Put this after your existing styles so it overrides where necessary */
+
+:root{
+  --sta-accent-1: #ff4c82;
+  --sta-accent-2: #ff2d55;
+  --sta-bg: #ffffff;
+  --sta-muted: #9aa4b2;
+  --sta-radius: 12px;
+  --sta-shadow: 0 18px 40px rgba(12,20,40,0.06);
+  --sta-shadow-strong: 0 30px 70px rgba(12,20,40,0.12);
+}
+
+/* base: keep layout but prepare for animations */
+.status-table-animate{
+  position: relative;
+  border-radius: 12px;
+  overflow: visible;
+  transform-origin: center center;
+  will-change: transform, opacity;
+  /* start hidden (entry animation) */
+  opacity: 0;
+  transform: translateY(18px) scale(.995);
+  transition: box-shadow .36s ease, transform .36s cubic-bezier(.2,.9,.3,1), opacity .36s ease;
+}
+
+/* decorative gradient border (subtle) */
+.status-table-animate::before{
+  content: "";
+  position: absolute;
+  inset: -1.6px; /* thin outline */
+  border-radius: inherit;
+  background: linear-gradient(120deg, rgba(255,76,130,0.10), rgba(255,45,85,0.06) 40%, rgba(3,155,255,0.04));
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .5s ease, transform .6s ease;
+  transform: scale(0.98);
+}
+
+/* inner card area should stay above pseudo */
+.status-table-animate > * { position: relative; z-index: 2; }
+
+/* when visible => pop in */
+.status-table-animate.in-view {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.status-table-animate.in-view::before{
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ribbon shimmer (single pass) */
+.status-table-animate .ticket_wrapper_recommend{
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+}
+.status-table-animate .ticket_wrapper_recommend::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-120%;
+  width:36%;
+  height:100%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.06), rgba(255,255,255,0.22), rgba(255,255,255,0.06));
+  transform: skewX(-12deg);
+  transition: none;
+  will-change: transform;
+}
+/* play shimmer when in-view */
+.status-table-animate.in-view .ticket_wrapper_recommend::after {
+  animation: sta-shimmer 1s ease-in-out 0.18s 1;
+}
+@keyframes sta-shimmer { from{left:-120%} to{left:120%} }
+
+/* title underline grow */
+.status-table-animate .title_row h3::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:-10px;
+  transform:translateX(-50%);
+  height:4px;
+  width:0;
+  border-radius:6px;
+  background: linear-gradient(90deg,var(--sta-accent-1),var(--sta-accent-2));
+  transition: width .46s cubic-bezier(.2,.9,.3,1);
+}
+.status-table-animate.in-view .title_row h3::after { width:72px; }
+
+/* staggered list reveal (gentle slide + fade) */
+.status-table-animate .ticket_wrapper li.bordercolor{
+  opacity: 0;
+  transform: translateY(10px);
+  will-change: transform, opacity;
+  transition: transform .48s cubic-bezier(.2,.9,.3,1), opacity .48s ease;
+}
+
+/* apply stagger by nth-child - adjust indices if your markup differs */
+.status-table-animate.in-view .ticket_wrapper li.bordercolor:nth-child(2){ transition-delay: .08s; opacity:1; transform: translateY(0); }
+.status-table-animate.in-view .ticket_wrapper li.bordercolor:nth-child(3){ transition-delay: .16s; opacity:1; transform: translateY(0); }
+.status-table-animate.in-view .ticket_wrapper li.bordercolor:nth-child(4){ transition-delay: .24s; opacity:1; transform: translateY(0); }
+
+/* CTA container unaffected but subtle micro-lift on card hover */
+.status-table-animate:hover { box-shadow: var(--sta-shadow-strong); transform: translateY(-6px) scale(1.002); }
+
+/* subtle row hover — does not change layout, just visual */
+.status-table-animate .ticket_wrapper li.bordercolor:hover {
+  background: rgba(11,115,221,0.03);
+  transform: translateY(-2px);
+}
+
+/* focus styles for keyboard users */
+.status-table-animate:focus-within { outline: 3px solid rgba(11,115,221,0.07); outline-offset: 4px; }
+
+/* MOBILE: reduce transform, keep smooth */
+@media (max-width: 768px){
+  .status-table-animate { transform: none; opacity: 1; transition: none; }
+  .status-table-animate::before { display: none; } /* keep simple on mobile */
+  .status-table-animate .ticket_wrapper li.bordercolor { transform: none; opacity: 1; transition: none; }
+}
+
+/* prefer-reduced-motion */
+@media (prefers-reduced-motion: reduce){
+  .status-table-animate,
+  .status-table-animate * { animation: none !important; transition: none !important; transform: none !important; opacity: 1 !important; }
+}
+
+
+
+/* -- */
