@@ -1495,49 +1495,6 @@
     }
 }
 </style>
-	</noscript>
-	<style>
-	/* Media Query untuk Perangkat Mobile (Max Width 767px) */
-@media screen and (max-width: 767px) {
-    
-    /* Menargetkan container pembungkus gambar */
-    .grandconference-gallery-grid-content-wrapper {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important; /* Membuat 4 kolom sama besar */
-        gap: 5px; /* Jarak antar gambar (bisa diubah sesuai selera) */
-        width: 100% !important;
-        margin: 0 auto !important;
-    }
-
-    /* Reset style pada item galeri agar mengikuti Grid */
-    .grandconference-gallery-grid-content-wrapper .gallery-grid-item {
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        float: none !important; /* Mematikan float bawaan tema */
-        position: relative !important;
-        left: auto !important;
-        top: auto !important;
-        clear: none !important;
-    }
-
-    /* Mempercantik tampilan gambar */
-    .grandconference-gallery-grid-content-wrapper .gallery-grid-item img {
-        width: 100% !important;
-        height: 100% !important; /* Memaksa tinggi seragam */
-        aspect-ratio: 1 / 1; /* Opsional: Membuat gambar jadi kotak presisi */
-        object-fit: cover !important; /* Mencegah gambar menjadi gepeng */
-        display: block !important;
-        border-radius: 4px; /* Opsional: Memberi sedikit lengkungan di sudut */
-    }
-
-    /* Menyembunyikan elemen clear float agar tidak merusak grid */
-    .grandconference-gallery-grid-content-wrapper br.clear {
-        display: none !important;
-    }
-}
-</style>
 </head>
 
 <body
