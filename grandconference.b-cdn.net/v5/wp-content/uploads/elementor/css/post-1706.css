@@ -26,6 +26,14 @@
     background-size: cover;
 }
 
+.elementor-1706 .elementor-element.elementor-element-356a:not(.elementor-motion-effects-element-type-background),
+.elementor-1706 .elementor-element.elementor-element-356a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://raw.githubusercontent.com/arzuizza/Ahexma-Asset-Image/refs/heads/main/Travel%20V1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .elementor-1706 .elementor-element.elementor-element-b75fa38>.elementor-background-overlay {
     background-color: #000000;
     opacity: 0.2;
