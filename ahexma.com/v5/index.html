@@ -5307,7 +5307,51 @@ document.addEventListener("DOMContentLoaded", function() {
 	</script>
 
 	<!-- Modifikasi -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Fungsi untuk mengoptimalkan konfigurasi Swiper pada Elementor
+    const optimizeSwiper = () => {
+        // Cari semua widget carousel/slider elementor
+        const swiperContainers = document.querySelectorAll('.elementor-image-carousel-wrapper, .elementor-background-slideshow');
+        
+        swiperContainers.forEach(container => {
+            // Cek apakah sudah ada instance swiper
+            if (container.swiper) {
+                // Update parameter untuk performa tinggi
+                container.swiper.params.lazy = {
+                    loadPrevNext: true,
+                    loadPrevNextAmount: 2,
+                    loadOnTransitionStart: true
+                };
+                container.swiper.params.preloadImages = false; // Jangan load semua gambar di awal
+                container.swiper.params.watchSlidesProgress = true;
+                container.swiper.params.virtual = {
+                    enabled: true, // AKTIFKAN VIRTUAL SLIDES (Kunci anti-lag)
+                    addSlidesBefore: 2,
+                    addSlidesAfter: 2
+                };
+                container.swiper.params.speed = 800; // Transisi lebih halus
+                
+                // Update swiper agar setting baru berjalan
+                container.swiper.update();
+            }
+        });
+    };
 
+    // Jalankan optimasi setelah Elementor selesai loading
+    jQuery(window).on('elementor/frontend/init', function() {
+        // Hook ke inisialisasi slider
+        elementorFrontend.hooks.addAction('frontend/element_ready/image-carousel.default', function($scope) {
+            setTimeout(optimizeSwiper, 100);
+        });
+        elementorFrontend.hooks.addAction('frontend/element_ready/section', function($scope) {
+            if($scope.find('.elementor-background-slideshow').length) {
+                setTimeout(optimizeSwiper, 100);
+            }
+        });
+    });
+});
+</script>
 
 
 
