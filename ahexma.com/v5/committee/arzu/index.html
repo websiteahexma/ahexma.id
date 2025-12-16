@@ -2754,9 +2754,46 @@ document.addEventListener("DOMContentLoaded", function() {
 													data-id="006c3c8" data-element_type="widget"
 													data-settings="{&quot;grandconference_ext_link_sidemenu&quot;:&quot;false&quot;,&quot;grandconference_ext_link_fullmenu&quot;:&quot;false&quot;,&quot;grandconference_ext_link_closed_fullmenu&quot;:&quot;false&quot;,&quot;grandconference_ext_is_sticky&quot;:&quot;false&quot;,&quot;grandconference_ext_is_scrollme&quot;:&quot;false&quot;,&quot;grandconference_ext_is_smoove&quot;:&quot;false&quot;,&quot;grandconference_ext_is_parallax_mouse&quot;:&quot;false&quot;,&quot;grandconference_ext_is_infinite&quot;:&quot;false&quot;,&quot;grandconference_ext_is_fadeout_animation&quot;:&quot;false&quot;,&quot;grandconference_ext_mobile_static&quot;:&quot;false&quot;}"
 													data-widget_type="heading.default">
+													<style>
+													.footer-link {
+														color: inherit;
+														text-decoration: none;
+														position: relative;
+														transition: color 0.3s ease;
+														display: inline-block; /* Memastikan area hover pas dengan teks */
+													}
+
+													/* Warna saat di-hover */
+													.footer-link:hover {
+														color: #FF2D55;
+													}
+
+													/* Pengaturan garis (pseudo-element) */
+													.footer-link::after {
+														content: '';
+														position: absolute;
+														width: 0;
+														height: 2px;
+														bottom: -2px;
+														/* Saat kursor keluar (normal state), garis mengecil ke arah kanan */
+														right: 0; 
+														background-color: #FF2D55;
+														transition: width 0.3s ease;
+													}
+
+													/* Saat kursor masuk (hover) */
+													.footer-link:hover::after {
+														width: 100%;
+														/* Saat hover, garis mulai memanjang dari sisi kiri */
+														left: 0;
+														right: auto;
+													}
+													</style>
 													<div class="elementor-widget-container">
-														<div class="elementor-heading-title elementor-size-default">©
-															Copyright by Coming Soon</div>
+														<div class="elementor-heading-title elementor-size-default">
+															© 2025 Ahexma | Developed by 
+															<a href="https://www.instagram.com/arzu.zoe" class="footer-link" target="_blank" rel="noopener">arzu.zeo</a>
+														</div>
 													</div>
 												</div>
 											</div>
