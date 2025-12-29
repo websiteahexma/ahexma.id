@@ -6872,6 +6872,89 @@ body.single-speaker #page_caption .speaker_website {
     margin-top: -5px
 }
 
+/* Modifikasi */
+
+
+.ppb_speaker_grid .element {
+    position: relative;
+    padding: 0;
+    line-height: 0;
+    overflow: hidden; /* Penting agar zoom tidak keluar batas */
+}
+
+/* GRADIENT OVERLAY: Dibuat lebih halus transisinya */
+.ppb_speaker_grid .element>a:after {
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: linear-gradient(to bottom, transparent 0%, transparent 50%, rgba(0,0,0,0.6) 80%, rgba(0,0,0,0.8) 100%);
+    opacity: 0.6; /* Mulai agak transparan agar gambar bw terlihat jelas */
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+/* Saat hover, overlay sedikit menggelap agar teks lebih terbaca */
+.ppb_speaker_grid .element:hover>a:after {
+    opacity: 1;
+}
+
+/* GAMBAR: Grayscale + Scale Animation */
+.ppb_speaker_grid .element img.bw {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transform: scale(1);
+    /* Menggunakan will-change untuk performa animasi yang lebih mulus */
+    will-change: transform, filter;
+    transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1), filter 0.3s ease;
+    display: block; /* Pastikan tidak ada gap */
+    width: 100%; /* Memastikan gambar responsive mengisi container */
+}
+
+/* Hover State untuk Gambar */
+.ppb_speaker_grid .element:hover img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.1); /* Zoom effect */
+}
+
+/* INFO WRAPPER: Membersihkan duplikasi dan menambah transisi kecil */
+.ppb_speaker_grid .speaker_info_wrapper {
+    position: absolute;
+    padding: 15px 20px;
+    bottom: 0;
+    left: 0;
+    line-height: 1.7;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+    /* Sedikit efek naik saat hover */
+    transform: translateY(5px);
+    transition: transform 0.3s ease;
+}
+
+.ppb_speaker_grid .element:hover .speaker_info_wrapper {
+    transform: translateY(0);
+}
+
+.ppb_speaker_grid .speaker_desc {
+    margin-top: -5px;
+    display: block;
+    font-size: 0.9em; /* Opsional: membedakan ukuran font deskripsi */
+    opacity: 0.8; /* Opsional: deskripsi sedikit lebih redup dari nama */
+}
+
+
+
+
+/* End Modifikasi */
+
+
+
+
+
+
+
 .ppb_contact_box.one {
     padding: 0
 }
@@ -9081,4 +9164,53 @@ body.single-tribe_events #tribe-events-footer {
 .tribe-events-content h5,
 .tribe-events-content h6 {
     margin-bottom: 0
+}
+
+
+/* Modifikasi */
+
+/* BREAKPOINT MOBILE (Tablet & HP) */
+@media only screen and (max-width: 768px) {
+
+    /* 1. STATE AWAL (Saat gambar belum di tengah layar) */
+    .ppb_speaker_grid .element img.bw {
+        transform: scale(1) !important; /* Normal size */
+        -webkit-filter: grayscale(100%) !important; /* Tetap Hitam Putih */
+        filter: grayscale(100%) !important;
+        /* Kita butuh transisi agar perubahan warnanya halus saat di-scroll */
+        transition: filter 0.6s ease, transform 0.6s ease !important; 
+    }
+
+    /* Info disembunyikan sedikit atau dibuat transparan dulu */
+    .ppb_speaker_grid .speaker_info_wrapper {
+        opacity: 0.7 !important;
+        transform: translateY(5px) !important;
+        transition: all 0.6s ease !important;
+    }
+
+    /* 2. STATE AKTIF (Class ini ditambahkan otomatis oleh Script saat di tengah layar) */
+    .ppb_speaker_grid .element.in-view img.bw {
+        -webkit-filter: grayscale(0%) !important; /* Menjadi Berwarna */
+        filter: grayscale(0%) !important;
+        transform: scale(1.05) !important; /* Zoom sedikit (opsional, jika suka) */
+    }
+
+    /* Overlay menggelap saat fokus */
+    .ppb_speaker_grid .element.in-view>a:after {
+        opacity: 1 !important;
+        background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.9) 100%);
+    }
+
+    /* Teks muncul penuh & naik */
+    .ppb_speaker_grid .element.in-view .speaker_info_wrapper {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+
+    /* 3. Mencegah efek hover manual (sentuhan jari) mengganggu scroll */
+    .ppb_speaker_grid .element:hover img {
+        /* Biarkan script yang mengatur, abaikan hover jari */
+        transform: inherit; 
+        filter: inherit;
+    }
 }
