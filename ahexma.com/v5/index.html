@@ -5353,6 +5353,34 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Opsi: threshold 0.5 artinya animasi jalan saat 50% gambar terlihat
+  let observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.5 
+  };
+
+  let observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      // Jika elemen masuk ke layar
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+      } else {
+        // Opsional: Hapus class jika keluar layar (biar jadi hitam putih lagi)
+        entry.target.classList.remove('in-view');
+      }
+    });
+  }, observerOptions);
+
+  // Targetkan semua elemen speaker grid
+  let elements = document.querySelectorAll('.ppb_speaker_grid .element');
+  elements.forEach(el => {
+    observer.observe(el);
+  });
+});
+</script>
 
 
 
