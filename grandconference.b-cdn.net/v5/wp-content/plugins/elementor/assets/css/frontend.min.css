@@ -6902,7 +6902,23 @@ body.elementor-page .elementor-widget-menu-anchor {
     .elementor-widget-video .elementor-wrapper iframe,
     .elementor-widget-video .elementor-wrapper video {
         position: absolute;
-        top: 0;
+        to.elementor-widget-video .elementor-custom-embed-image-overlay {
+    cursor: pointer;
+    text-align: center
+}
+
+.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i {
+    opacity: 1
+}
+
+.elementor-widget-video .elementor-custom-embed-image-overlay img {
+    display: block;
+    width: 100%;
+    aspect-ratio: var(--video-aspect-ratio);
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center centerp: 0;
         right: 0;
         bottom: 0;
         left: 0
@@ -6919,23 +6935,7 @@ body.elementor-page .elementor-widget-menu-anchor {
     background-position: 50%
 }
 
-.elementor-widget-video .elementor-custom-embed-image-overlay {
-    cursor: pointer;
-    text-align: center
-}
 
-.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i {
-    opacity: 1
-}
-
-.elementor-widget-video .elementor-custom-embed-image-overlay img {
-    display: block;
-    width: 100%;
-    aspect-ratio: var(--video-aspect-ratio);
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center center;
-    object-position: center center
 }
 
 @supports not (aspect-ratio:1/1) {
